@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Store Information</title>
+    <link rel="stylesheet" href="storeinfo.css">
+</head>
+<body>
+    <p style="font-size: 20px" class="statement">Since 1965, Daniel's restaurant has been dedicated to serving the best quality and tastiest food available. We have over 12 chain restaurants across the United States of America. Come over to:</p>
+        <br>
+        <ul>Tinton Falls, New Jersey</ul>
+        <ul>Albany, New York</ul>
+        <ul>Augusta, Maine</ul>
+        <ul>Miami, Florida</ul>
+        <ul>Kansas City, Missouri</ul>
+        <ul>Santa Fe, New Mexico</ul>
+        <ul>Dove Creek, Colorado</ul>
+        <ul>Salt Lake City Utah</ul>
+        <ul>Carson City, Nevada</ul>
+        <ul>San Francisco, California</ul>
+        <ul>Sacramento, California</ul>
+        <ul>Portland, Oregon</ul>
+        <br>
+        <p>to get the best food you will ever try!</p>
+
+    <h1 style="text-align: center;">Store Hours</h1>
+    <div class="divider">
+    <table bgcolor="darkcyan" class="table">
+        <tr bgcolor="Ridgewood">
+            <td>Monday</td>
+            <td>Tuesday</td>
+            <td>Wednesday</td>
+            <td>Thursday</td>
+            <td>Friday</td>
+            <td>Saturday</td>
+            <td>Sunday</td>
+        </tr>
+
+        <tr bgcolor="cyan">
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+            <td>9-5</td>
+        </tr>
+    </table>
+    </div>
+
+    <h1 style="text-align: center;">Reservations at Daniel's Restauraunt</h1>
+    <div class="enlarge">
+    <div id="realrandom">
+        <p>Due to the limited amount of seating at the restauraunt, we can only accomodate up to fifty guests at once. We have reached the maximum capacity already, so we need you to take a number to enter the queue.</p>
+    </div>
+    <h4>The number is:</h4>
+    <div id="2ndrandom">
+        <h4></h4>
+    </div>
+    <button onclick="getRandom()">Get a Random number</button>
+    <script>
+        function getRandom() {
+            var randomness = document.getElementById("2ndrandom").innerHTML = Math.floor(Math.random() * 100)
+        }
+
+    </script>
+
+    </div>
+</body>
+</html>

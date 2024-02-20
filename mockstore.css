@@ -1,0 +1,111 @@
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li{
+    float: right;
+}
+
+li a{
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    color: rgb(192, 170, 170);
+    font-size: 40px;
+}
+
+li a:hover{
+    color: blue;
+}
+
+body{
+    background-image: url("ice-cream-3389010_1280.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+button{
+    border: none;
+    padding: 10px;
+    font-size: 19px;
+    display: flex;
+}
+
+blockquote{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+}
+
+.weirdbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h1style{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(77, 21, 21);
+    height: 200px;
+    font-size: 40px;
+}
+
+.explorebutton{
+    padding: 32px;
+    border-radius: 15px;
+    font-size: 30px;
+    border: 10px solid brown;
+    text-decoration: none;
+}
+
+#buttonparent{
+    display: flex;
+    justify-content: center;
+}
+
+.menu{
+    margin: 20px;
+    padding: 20px;
+    background-color: brown;
+}
+
+.block456{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.steak{
+    height: 100px;
+    width: 100px;
+    float: right;
+    border-radius: 15px;
+    display: flex;
+}
+
+.steaks{
+    height: 200px;
+    width: 800px;
+    height: 400px;
+    display: block;
+}
+
+ol{
+    font-size: 30px;
+}
+
+.touch{
+    margin: 80px;
+    padding: 20px;
+    background-color: lightblue;
+}
+
+form, input{
+    text-align: center;
+    font-size: 50px;
+}
