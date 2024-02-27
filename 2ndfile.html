@@ -5,9 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel's Restauraunt</title>
     <link rel="stylesheet" href="mockstore.css">
+    <link rel="shortcut icon" href="ice-cream-3389010_1280.jpg" type="image/x-icon">
 </head>
 <body>
-    <i class="fa-solid fa-house"></i>
     <nav>
         <ul>
             <li><a class="titlelink" href="storeinformation.html">Store Information</a></li>
@@ -30,19 +30,20 @@
         <h1 style="text-align: center; font-size: 100px;">Daniel's Restaurant</h1>
 
         <div id="buttonparent">
-        <a href="https://youtube.com"><button class="explorebutton">Explore more</button></a>
+        <a href="https://www.youtube.com/watch?v=busWnmP_208"><button class="explorebutton">Explore more</button></a>
         
         </div>
     
-        <!---
+    
         <script>
             var age = window.prompt("Confirm your age please")
-            if (age < 13) {
-                alert("Sorry, you're too young to enter this site")
-                self.close()
-            }
+                if (age < 13) {
+                    window.stop()
+                    alert("Sorry, you're too young to enter this website")
+                    window.stop()
+                }
         </script>
-        !-->
+    
     </section>
 
     <div class="block456">
@@ -53,23 +54,25 @@
             <ol>Green Salad    -    $ 3.99</ol>
             <ol>Fish Tacos    -    $ 5.00</ol>
             <ol>Steak    -    $ 32.00</ol>
-            <ol style="font-size: 70px;">Deserts</ol>
+            <ol style="font-size: 70px;">Desserts</ol>
             <ol>Strawberry Ice Cream   -    $ 1.99</ol>
-            <ol>Chocolate Sundae    -    $ 32.00</ol>
+            <ol>Chocolate Sundae    -    $ 7.99</ol>
             <br>
         <br>
-        <img src="janice-lin-yUIN4QWKCTw-unsplash.jpg" class="steaks">
+        <img src="steak.jpeg" class="steaks">
 
     </div>
     <div class="touch">
         <h1 style="text-align: center;">We would love to get in touch with you!</h1>
         <form>
             <label for="email">Enter your email: </label>
-            <input type="email">
+            <input type="email" id="email" name="enteremail" placeholder="example@gmail.com">
             <br>
             <br>
-            <label for="password">Make a password: </label>
-            <input type="password">
+            <label for="password1">Make a password: </label>
+            <input type="password" id="password1" name="enterpassword" placeholder="password">
+            <br>
+            <input type="submit">
 
         </form>
     </div>
