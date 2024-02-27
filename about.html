@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About File</title>
+</head>
+<body>
+    <h1></h1>
+    <div id="realrandom" style="font-size: 40px;">
+        Hello
+    </div>
+    <div id="2ndrandom" style="font-size: 40px;">
+        pick a number
+    </div>
+    <button onclick="getRandom()">Get a Random number</button>
+    <script>
+        function getRandom() {
+            var randomness = document.getElementById("realrandom").innerHTML = Math.floor(Math.random() * 10)
+            if (randomness % 2 == 0) {
+                alert('you got an even number')
+            }
+            else if (randomness % 2 == 1) {
+                alert('you got an odd number')
+            }
+        }
+    </script>
+</body>
+</html>
