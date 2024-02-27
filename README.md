@@ -1,2 +1,0 @@
-# mockstore
-fake store
