@@ -54,7 +54,7 @@
     <h1 style="text-align: center;">Reservations at Daniel's Restauraunt</h1>
     <div class="enlarge">
     <div id="realrandom">
-        <p>Due to the limited amount of seating at the restauraunt, we can only accomodate up to fifty guests at once. We have reached the maximum capacity already, so we need you to take a number to enter the queue.</p>
+        <p>Random number generator from 0 to 1000</p>
     </div>
     <h4>The number is:</h4>
     <div id="2ndrandom">
@@ -63,7 +63,7 @@
     <button onclick="getRandom()">Get a Random number</button>
     <script>
         function getRandom() {
-            var randomness = document.getElementById("2ndrandom").innerHTML = Math.floor(Math.random() * 100)
+            var randomness = document.getElementById("2ndrandom").innerHTML = Math.floor(Math.random() * 1000)
         }
 
     </script>
